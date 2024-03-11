@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Menu</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -20,59 +28,92 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .menu{
+      display: flex;
+      justify-content: center;
+      padding: 10vh;
+    }
+    
+  </style>
 </head>
-<body>
-<section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
-      <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Sat: 11:00 AM - 23:00 PM</span></i>
-    </div>
-  </section>
 
+<body>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Delicious</a></h1>
+        <h1><a href="index.html" style="color: black;">Delicious</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
+          <li><a class="nav-link scrollto " href="./index.html" style="color: black;">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about" style="color: black;">About</a></li>
+          <li><a class="nav-link scrollto active" href="./menu.html" style="color: orange;">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#specials" style="color: black;">Specials</a></li>
+          <li><a class="nav-link scrollto" href="#events" style="color: black;">Events</a></li>
+
+          <li><a class="nav-link scrollto" href="#gallery" style="color: black;">Gallery</a></li>
           
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact" style="color: black;">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#book-a-table" class="book-a-table-btn scrollto">Book a table</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto" style="color: black;">Book a table</a>
 
     </div>
   </header><!-- End Header -->
+  <div class="emptycontainer" style="padding: 10vh;">
+    <!-- This is the space for seperate header and main -->
+
+  </div>
+  <main>
+    <!-- Menu -->
+    <div class="menu">
+      <div class="card" style="width: 18rem; ">
+        <img src="./Caprese Salad.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caprese Salad</h5>
+          <p class="card-text">A classic Italian salad featuring the vibrant colors of ripe tomatoes, fresh mozzarella, and basil leaves. </p>
+          <a href="#" class="btn btn-primary">Order</a>
+        </div>
+        
+      </div>
+      <div class="blankcontainer" style="padding: 2vh;"></div>
+      <div class="card" style="width: 18rem; ">
+        <img src="./Spinach and Artichoke Dip.jpg" class="card-img-top" alt="..." style="height: 22vh">
+        <div class="card-body">
+          <h5 class="card-title">Spinach and Artichoke Dip</h5>
+          <p class="card-text">Creamy and indulgent, this warm dip combines spinach, artichoke hearts, cream cheese.</p>
+          <a href="#" class="btn btn-primary">Order</a>
+        </div>
+      </div>
+      <div class="blankcontainer" style="padding: 2vh;"></div>
+      <div class="card" style="width: 18rem; ">
+        <img src="./Tomato Basil Bruschetta.jpg" class="card-img-top" alt="... " style="height: 22vh ;">
+        <div class="card-body">
+          <h5 class="card-title">Tomato Basil Bruschetta</h5>
+          <p class="card-text">A timeless appetizer that celebrates the essence of summer, bruschetta features diced tomatoes. </p>
+          <a href="#" class="btn btn-primary">Order</a>
+        </div>
+      </div>
+      <div class="blankcontainer" style="padding: 2vh;"></div>
+      <div class="card" style="width: 18rem; ">
+        <img src="./shcock.jpg" class="card-img-top" alt="..." style="height: 22vh;">
+        <div class="card-body">
+          <h5 class="card-title">Shrimp Cocktail</h5>
+          <p class="card-text">Elegant and light, shrimp cocktail presents succulent, chilled shrimp served with a zesty cocktail sauce.</p>
+          <a href="#" class="btn btn-primary">Order</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
 </body>
+
 </html>
