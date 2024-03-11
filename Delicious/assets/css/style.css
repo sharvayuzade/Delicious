@@ -1,14 +1,4 @@
-/**
-* Template Name: Delicious
-* Updated: Mar 10 2024 with Bootstrap v5.3.3
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Poppins", sans-serif;
   color: #444444;
@@ -195,7 +185,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 24px;
+  padding: 0 0 0 14px;
   font-size: 15px;
   font-weight: 500;
   color: white;
@@ -207,7 +197,7 @@ h6 {
 .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
-  margin-left: 5px;
+  margin-left: 0;
 }
 
 .navbar a:hover,
