@@ -632,7 +632,6 @@
   -webkit-animation-name: tada;
   animation-name: tada;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes wobble {
   from {
     -webkit-transform: translate3d(0, 0, 0);
